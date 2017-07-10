@@ -147,11 +147,27 @@ aside#sidebar{
   width: 30%;
   margin-top: 10px;
 }
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width: 90%;
+  padding:5px:
+  
+}
 /*main-col*/
 article#main-col{
   float: left;
   width: 60%;
 }
+/*services*/
+
+ul#services{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+
 
 footer{
   padding: 20px;
