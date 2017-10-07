@@ -1,59 +1,104 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width = device-width">
-    <meta name="description" content="affordable and professonal web design">
-    <meta name="keywords" content="web design, html, web profile">
-    <meta name="author" content="M S Arefin">
-    <title> About </title>
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-          <h1><span class="highlight">ACME</span> Web Design</h1>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li class="current"><a href="./About.html">About</a></li>
-            <li><a href="Services.html">Services</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="refresh" content="5">
+	<title>About Us</title>
 
-    <section id="newsletter">
-      <div class="container">
-        <h1>Subscribe to our newsletter</h1>
-        <form>
-          <input type="email" placeholder="Enter Email...">
-          <button type="Submit" class="button_1">Subscribe</button>
-        </form>
-      </div>
-    </section>
-    <section id="main">
-      <div class="container">
-      <article id="main-col">
-        <h1 class="page-title">About Us</h1>
-        <p>Wikipedia (/ˌwɪkᵻˈpiːdi.ə/ (About this sound listen) or /ˌwɪkiˈpiːdi.ə/ (About this sound listen) WIK-i-PEE-dee-ə) is a multilingual, web-based, free-content encyclopedia project supported by the Wikimedia Foundation and based on a model of openly editable content. The name "Wikipedia" is a portmanteau of the words wiki (a technology for creating collaborative websites, from the Hawaiian word wiki, meaning "quick") and encyclopedia. Wikipedia's articles provide links designed to guide the user to related pages with additional information.
-        </p>
-        <p class="dark">
-Wikipedia is written collaboratively by largely anonymous volunteers who write without pay. Anyone with Internet access can write and make changes to Wikipedia articles, except in limited cases where editing is restricted to prevent disruption or vandalism. Users can contribute anonymously, under a pseudonym, or, if they choose to, with their real identity.
-        </p>
-      </article>
-      <aside id="sidebar">
-        <div class="dark">
-        <h3>What we do</h3>
-        <p>Wikipedia (/ˌwɪkᵻˈpiːdi.ə/ (About this sound listen) or /ˌwɪkiˈpiːdi.ə/ (About this sound listen) WIK-i-PEE-dee-ə) is a multilingual, web-based, free-content encyclopedia project supported by the Wikimedia Foundation and based on a model of openly editable content. The name "Wikipedia" is a portmanteau of the words wiki (a technology for creating collaborative websites, from the Hawaiian word wiki, meaning "quick") and encyclopedia. Wikipedia's articles provide links designed to guide the user to related pages with additional information.
-        </p>
-      </div>
-      </aside>
-      </div>
-    </section>
-    <footer>
-    <p>ACME Web Design | CopyRight &copy; 2017</p></footer>
-  </body>
+	<style>
+		div.cities{
+			background-color: brown;
+			color:white;
+			margin:20px 0 20px 0;
+			padding:20px;
+		}
+
+		span.note{
+			font-family: sans-serif;
+			font-size: 120%;
+			color: red;
+		}
+
+		#menu{
+			background-color:green;
+			padding-bottom: 2px;
+
+		}
+
+		#menu ul{
+
+			list-style: none;
+			margin:0;
+			padding:0;
+			overflow:hidden;
+			background-color:#333333;
+		}
+
+		#menu li{
+			float:left;
+		}
+
+		#menu a{
+			display: block;
+			color: white;
+			padding: 16px;
+			text-decoration: none;
+			text-align: center;
+		}
+		#menu a:hover{
+			background-color: brown;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div id="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="chapter01.html">Chapter01</a></li>
+			<li><a href="JavaScript.html">JavaScript</a></li>
+			<li><a href="CityGallery.html">About</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<iframe src="index.html" height="200" width="500" style="border:none;"></iframe>
+		<iframe src="chapter01.html" style="border:2px solid grey;"></iframe>
+
+		<iframe src="about.html" height="auto" width="auto" name="iframe_a"></iframe>
+		<br>
+		<a href="./img/l_logo.jpg" target="iframe_a">Home</a>
+	</div>
+
+
+
+<div style="background-color:black;color:white;padding:20px;">
+	<h1>About</h1>
+	<p>About this page</p>
+	<p>London is the capital city of England. It is the most populus city in the United Kingdom, with a metropolitan area of over 13 million inhavitants</p>
+
+	<h1>My <span style="color:red;">Imortant</span> Heading</h1>
+
+	<h2><span class="note" >Sherlock Holme</span> is a greate detective</h2>
+	<p>When you have eleminated the <span class="note">impossible</span>, what remains how ever <span class="note">imporbable</span> must be the <span class="note">truth!</span></p>
+
+</div>
+
+<div class="cities">
+	<h2>London</h2>
+	<p>London is the capital of England. It is the most popolous city in the United Kingdom, with a metropolitan  area of over 13 million inhabitants.</p>
+</div>
+
+<div class="cities">
+	<h2>Paris</h2>
+	<p>Paris is the capital city and most popolous city of France</p>
+</div>
+<div class ="cities">
+	<h2>Tokyo</h2>
+	<p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area, and the most popolous metropolitan area in the world.</p>
+
+</div>
+</body>
 </html>
