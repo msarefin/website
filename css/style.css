@@ -1,0 +1,29 @@
+body{
+    background-color:white;
+    width:60%;
+    
+    
+    
+}
+div{
+    padding:1px;
+}
+
+footer{
+    background-color:maroon;
+    text-align:center;
+    color:white;
+    padding:1px;
+    border-radius:10px;
+}
+#banner{
+    background-color:maroon;
+    padding:1px;
+    border-radius:10px;
+    text-align:center;
+    color:white;
+}
+
+#highlight{
+    color:orange;
+}
