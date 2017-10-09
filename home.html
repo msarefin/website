@@ -1,37 +1,111 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
-
-<div class="w3-container w3-green">
-  <h1>W3Schools Demo</h1> 
-  <p>Resize this responsive page!</p> 
-</div>
-
-<div class="w3-row-padding">
-  <div class="w3-third">
-    <h2>London</h2>
-    <p>London is the capital city of England.</p>
-    <p>It is the most populous city in the United Kingdom,
-    with a metropolitan area of over 13 million inhabitants.</p>
-  </div>
-
-  <div class="w3-third">
-    <h2>Paris</h2>
-    <p>Paris is the capital of France.</p> 
-    <p>The Paris area is one of the largest population centers in Europe,
-    with more than 12 million inhabitants.</p>
-  </div>
-
-  <div class="w3-third">
-    <h2>Tokyo</h2>
-    <p>Tokyo is the capital of Japan.</p>
-    <p>It is the center of the Greater Tokyo Area,
-    and the most populous metropolitan area in the world.</p>
-  </div>
-</div>
-
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Sunny">
+        <meta name="description" content="Learning Web design">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+        <link rel="stylesheet" type="text/css" href="./CSS/homecss.css">
+        <title>Learning T-SQL</title>
+    </head>
+    <body>
+        <div>
+            <header id="banner">
+                <h1><span id=highlight>Learning</span> T-SQL</h1>
+            </header>
+            <nav id=topnav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#DML">DML</a></li>
+                    <li><a href="#DDL">DDL</a></li>
+                    <li><a href="#DDL">DCL</a></li>
+                    <li><a href="#TCL">TCL</a></li>
+                </ul>
+                
+            </nav>
+            <nav id=leftnav>
+                <ul>
+                    <li><a href="#chapter1">Chapter 1</a></li>
+                    <li><a href="#chapter2">Chapter 2</a></li>
+                    <li><a href="#chapter3">Chapter 3</a></li>
+                    <li><a href="#chapter4">Chapter 4</a></li>
+                    <li><a href="#chapter5">Chapter 5</a></li>
+                    <li><a href="#chapter6">Chapter 6</a></li>
+                    <li><a href="#chapter7">Chapter 7</a></li>
+                    <li><a href="#chapter8">Chapter 8</a></li>
+                    <li><a href="#chapter9">Chapter 9</a></li>
+                    <li><a href="#chapter10">Chapter 10</a></li>
+                    <li><a href="#chapter11">Chapter 11</a></li>
+                    <li><a href="#chapter12">Chapter 12</a></li>
+                    <li><a href="#chapter13">Chapter 13</a></li>
+                </ul>
+            </nav>
+            <aslide id="right">
+                <form>
+                    FirstName: <input type="text" name="firstname" value="First Name">
+                    <br/>
+                    LastName: <input type="text" name="lastname" value="Last Name">
+                    <br/>
+                    DOB: <input type="date" name="dob" max="1980-01-01" min="2020-01-01">   
+                    <br/>
+                    Today's date<input type=datetime-local name="submitdate">
+                    <br/>
+                    Gender:
+                    <input type="radio" name="gender" value="male" checked> Male
+                    <input type="radio" name="gender" value="female" checked> Female
+                    <br/>
+                    email: <input type="email" name="email">
+                    month: <input type="month"  name="month">
+                    <br/>
+                    What would you like to learn?
+                    <select name="topic">
+                        <option vlaue="DML">DML</option>
+                        <option value="DDL">DDL</option>
+                        <option value="DCL">DCL</option>
+                        <option value="TCL">TCL</option>
+                    </select>
+                    <br/>
+                    <textarea name="purpose" rows="3" cols="33">Tell us something about yourself</textarea>
+                    <br/>
+                    <input type="checkbox" name="level" value="beginer"> Beginer
+                    <input type="checkbox" name="level" value="intermediate">Intermediste
+                    <input type="checkbox" name="level" value="advanced"> Advanced
+                    <br/>
+                    <input type="submit" name="Submit">
+                    <input type="button" onclick="alert('You clicked')" value="Do not click!">
+                    <input type="reset">
+                    <button type="button" onclick="alert('This is just a test!')">Click Test!</button>
+                    
+                </form>
+                
+            </aslide>
+            <br/>
+            
+            <section>
+                <p>Sherlock Holmes says, <q>Your mind is like an attic where you must store only thing that you need.</q></p>
+                <p title="Sherlock Holmes"> Sherlock Holmes:</p>
+                <blockquote>When you  have eleminated the impossible, what remains however imporbable, must be the truth!</blockquote>
+                
+                <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948</p>
+                
+                <address>Sherlock Holmes<br> 321 Baker Street<br>London<br>UK</address>
+                
+                <p><cite>Sherlock Holmes;</cite> written by Arthur Conan Doyel</p>
+                <bdo dir="rtl">This text will be written from right to left !</bdo>
+            </section>
+            <br>
+            <aside id="login">
+                <form>
+                    User: <input type="text" name="User Name"> 
+                    Pass: <input type="password" name="password">
+                    <input type="reset">
+                    <button type="button" onclick="alert('Credencials not found')">Login</button>
+                </form>
+            </aside>
+            <footer>
+                <p>Copyright &copy; 2017</p>
+            </footer>
+        </div>
+    </body>
 </html>
-Try it Yourself »
