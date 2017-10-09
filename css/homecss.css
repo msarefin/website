@@ -17,6 +17,30 @@ section{
     background-color:white;
 }
 
+table, tr, th, td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    padding:16px;
+}
+th{
+    text-align:center;
+}
+
+table{
+    border-spacing:5px;
+    width:100%;
+}
+table#t1 th{
+    background-color:black;
+    color:white;
+}
+
+table#t1 tr:nth-child(even){
+    background-color:bisque
+}
+
 #banner{
     text-align:center;
     background-color:#108b9e;
